@@ -188,7 +188,7 @@ function send_email(event) {
 
   console.log('hi')
 
-  //send data to backend
+  //send data to the backend
   fetch('/emails', {
     method: 'POST',
     body: JSON.stringify({
